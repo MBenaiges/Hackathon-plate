@@ -90,7 +90,12 @@ img{
   position: absolute;
   top:0;
   left: 0;
-
+}
+.foto-logo2{
+  width: 30%;
+  position: absolute;
+  top:0;
+  left: 0;
 }
 
 button{
@@ -114,4 +119,8 @@ footer{
 
 .tit{
   margin-top: -20px;
+}
+.text-div{
+  margin-bottom: -50px;
+  margin-top: 60px;
 }
