@@ -5,11 +5,15 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 5%;
+  display: grid;
+  grid-template-rows: 100vh 100vh 100vh;
+
 }
 
 
@@ -43,3 +47,25 @@ body {
 
 /* ---- css shame ---- */
 
+img{
+  width: 200px;
+}
+
+.sectionsRows{
+  display:grid;
+  grid-template-columns: 35% 65%;
+}
+
+.bg-box, .bg-paper, .bg-parachute{
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+}
+
+.transition {    
+  -webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
