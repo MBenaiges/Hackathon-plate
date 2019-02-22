@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 5%;
   display: grid;
-  grid-template-rows: 100vh 100vh 100vh;
+  grid-template-rows: 90vh 80vh 60vh;
 
 }
 
@@ -60,6 +60,9 @@ img{
   display:grid;
   grid-template-columns: 35% 65%;
 }
+.sectionsRows-img{
+  justify-self: end;
+}
 .sectionsRows2{
   display:grid;
   grid-template-columns: 65% 35%;
@@ -87,5 +90,20 @@ img{
 
 }
 
+button{
+  padding: 10px 30px;
+  color: #2e3192; 
+  font-size:1.3rem;
+  justify-content: center;
+  margin-left: 120px;
+  font-weight: bolder;
+}
 
+footer{
+  width: 60%;
+  bottom: 0;
+  left: 0;
+  margin-left: -70px;
+  margin-bottom: -70px;
+}
 
