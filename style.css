@@ -9,6 +9,8 @@ html {
 }
 
 body {
+  background-color: #2e3192;
+  color: white;
   margin: 0;
   padding: 5%;
   display: grid;
@@ -48,12 +50,19 @@ body {
 /* ---- css shame ---- */
 
 img{
-  width: 200px;
+  width: 100%;
+}
+.img-opacity{
+  width: 12rem;
 }
 
 .sectionsRows{
   display:grid;
   grid-template-columns: 35% 65%;
+}
+.sectionsRows2{
+  display:grid;
+  grid-template-columns: 65% 35%;
 }
 
 .bg-box, .bg-paper, .bg-parachute{
@@ -69,3 +78,14 @@ img{
 	-o-transition: all 1s ease-in-out;
 	transition: all 1s ease-in-out;
 }
+
+.foto-logo{
+  width: 20%;
+  position: absolute;
+  top:0;
+  left: 0;
+
+}
+
+
+
